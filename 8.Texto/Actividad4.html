@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi sitio con fuentes personalizadas</title>
+
+  <style>
+    @font-face {
+      font-family: "PlayfairCustom";
+      src: url("fonts/playfair.ttf") format("truetype");
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: "RobotoCustom";
+      src: url("fonts/roboto.ttf") format("truetype");
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    .titulo {
+      font-family: "PlayfairCustom", serif;
+      font-size: 48px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .texto {
+      font-family: "RobotoCustom", sans-serif;
+      font-size: 20px;
+      line-height: 1.6;
+      text-align: justify;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    body {
+      background: #f4f4f4;
+      padding: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1 class="titulo">Un paseo por la imaginación</h1>
+
+  <p class="texto">
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et enim ligula. Phasellus ultrices vestibulum felis vitae rutrum. Sed hendrerit justo nulla, ut maximus lacus mollis eu. Sed gravida dictum tempor. Nulla ornare augue et magna malesuada egestas. Maecenas in lectus in erat pharetra sodales.
+  </p>
+
+</body>
+</html>
